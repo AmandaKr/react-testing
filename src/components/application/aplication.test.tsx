@@ -50,5 +50,6 @@ describe("Application", () => {
 
     const button = screen.getByRole("button");
     expect(button).toBeInTheDocument();
+    expect(button).toBeDisabled();
   });
 });
